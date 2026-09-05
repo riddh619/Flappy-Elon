@@ -1,4 +1,9 @@
 {
-  "cleanUrls": true,
-  "outputDirectory": "build/web"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/build/web/$1"
+    }
+  ]
 }
